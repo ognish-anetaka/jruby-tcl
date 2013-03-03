@@ -9,5 +9,6 @@ platform :jruby do
   gem "rdoc"
   gem "jeweler"
   gem "zip"
+  gem "simplecov", :require => false, :group => :test
 #  gem "rcov", ">= 0"
 end

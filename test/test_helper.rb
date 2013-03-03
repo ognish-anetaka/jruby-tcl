@@ -1,3 +1,6 @@
+require 'simplecov'
+SimpleCov.start
+
 require "test/unit"
 require File.join(File.dirname(__FILE__), *%w".. lib jruby-tcl")
 

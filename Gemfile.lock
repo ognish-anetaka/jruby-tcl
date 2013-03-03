@@ -8,9 +8,14 @@ GEM
       rake
       rdoc
     json (1.7.7-java)
+    multi_json (1.6.1)
     rake (10.0.2)
     rdoc (4.0.0)
       json (~> 1.4)
+    simplecov (0.7.1)
+      multi_json (~> 1.0)
+      simplecov-html (~> 0.7.1)
+    simplecov-html (0.7.1)
     zip (2.0.2)
 
 PLATFORMS
@@ -19,4 +24,5 @@ PLATFORMS
 DEPENDENCIES
   jeweler
   rdoc
+  simplecov
   zip
