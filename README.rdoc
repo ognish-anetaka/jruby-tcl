@@ -1,6 +1,25 @@
 = jruby-tcl
 
-Description goes here.
+This library is ruby-tcl version of JRuby.
+
+Approximately compatible with ruby-tcl.
+https://github.com/sstephenson/ruby-tcl
+
+Using Tcl/Java.
+http://tcljava.sourceforge.net/
+
+== Getting Started
+
+ % jruby -S rake install
+
+* hello.rb
+
+ require 'jruby-tcl'
+ 
+ @interp = Tcl::Interp.new
+ @interp.eval "set a {Hello World}"
+ @interp.eval "puts $a"
+
 
 == Contributing to jruby-tcl
  
